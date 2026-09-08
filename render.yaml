@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: deriv-bot-scanner
+    runtime: node
+    buildCommand: npm install && npx playwright install chromium
+    startCommand: node server.js
+    healthCheckPath: /health

@@ -1,0 +1,16 @@
+{
+  "name": "deriv-bot-scanner-playwright",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Browser-based public Deriv/Binary trading bot discovery scanner",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
